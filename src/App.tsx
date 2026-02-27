@@ -156,7 +156,7 @@ export default function App() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="max-w-2xl w-full text-center space-y-8"
+            className="w-[90vw] md:w-full max-w-2xl text-center space-y-8"
           >
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-display font-bold text-cupula-gold leading-tight">
@@ -181,7 +181,7 @@ export default function App() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
-            className="max-w-2xl w-full space-y-6"
+            className="w-[90vw] md:w-full max-w-2xl space-y-6"
           >
             <div className="space-y-2">
               <span className="text-cupula-gold font-mono text-sm">01 →</span>
@@ -210,7 +210,7 @@ export default function App() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
-            className="max-w-2xl w-full space-y-6"
+            className="w-[90vw] md:w-full max-w-2xl space-y-6"
           >
             <div className="space-y-2">
               <span className="text-cupula-gold font-mono text-sm">02 →</span>
@@ -240,7 +240,7 @@ export default function App() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
-            className="max-w-2xl w-full space-y-6"
+            className="w-[90vw] md:w-full max-w-2xl space-y-6"
           >
             <div className="space-y-2">
               <span className="text-cupula-gold font-mono text-sm">03 →</span>
@@ -269,7 +269,7 @@ export default function App() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
-            className="max-w-2xl w-full space-y-6"
+            className="w-[90vw] md:w-full max-w-2xl space-y-6"
           >
             <div className="space-y-2">
               <span className="text-cupula-gold font-mono text-sm">04 →</span>
@@ -305,7 +305,7 @@ export default function App() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
-            className="max-w-2xl w-full space-y-6"
+            className="w-[90vw] md:w-full max-w-2xl space-y-6"
           >
             <div className="space-y-2">
               <span className="text-cupula-gold font-mono text-sm">05 →</span>
@@ -345,7 +345,7 @@ export default function App() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
-            className="max-w-2xl w-full space-y-6"
+            className="w-[90vw] md:w-full max-w-2xl space-y-6"
           >
             <div className="space-y-2">
               <span className="text-cupula-gold font-mono text-sm">06 →</span>
@@ -384,7 +384,7 @@ export default function App() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
-            className="max-w-2xl w-full space-y-6"
+            className="w-[90vw] md:w-full max-w-2xl space-y-6"
           >
             <div className="space-y-2">
               <span className="text-cupula-gold font-mono text-sm">07 →</span>
@@ -418,7 +418,7 @@ export default function App() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
-            className="max-w-2xl w-full space-y-6"
+            className="w-[90vw] md:w-full max-w-2xl space-y-6"
           >
             <div className="space-y-2">
               <span className="text-cupula-gold font-mono text-sm">08 →</span>
@@ -445,7 +445,7 @@ export default function App() {
             key="final"
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="max-w-2xl w-full text-center space-y-8"
+            className="w-[90vw] md:w-full max-w-2xl text-center space-y-8"
           >
             <div className="w-20 h-20 bg-cupula-gold rounded-full flex items-center justify-center mx-auto mb-8">
               <Check className="w-10 h-10 text-cupula-bg" strokeWidth={3} />
